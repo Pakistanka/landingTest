@@ -1,0 +1,56 @@
+.h1 {
+  font-family: 'Futura New Demi', $default;
+  font-weight: 500;
+  line-height: normal;
+  font-size: rem(72px);
+  margin: 0;
+}
+
+.h2 {
+  font-family: 'Futura New Demi', $default;
+  font-weight: 500;
+  line-height: normal;
+  font-size: rem(45px);
+  margin: 0;
+}
+
+.h3 {
+  font-family: 'Futura New Demi', $default;
+  font-weight: 500;
+  line-height: normal;
+  font-size: rem(36px);
+  margin: 0;
+
+  &--lh-34px {
+    line-height: rem(34px)
+  }
+}
+
+.h4 {
+  font-family: 'Futura New Book', $default;
+  font-weight: normal;
+  line-height: normal;
+  font-size: rem(21px);
+  margin: 0;
+}
+
+.h5 {
+  font-family: 'Futura New Book', $default;
+  font-weight: normal;
+  line-height: normal;
+  font-size: rem(17px);
+  margin: 0;
+}
+
+.h6 {
+  font-family: 'Futura New Book', $default;
+  font-weight: normal;
+  line-height: normal;
+  font-size: rem(14px);
+  margin: 0;
+
+  &--bold {
+    font-family: 'Futura New Demi', $default;
+    font-weight: 500;
+  }
+}

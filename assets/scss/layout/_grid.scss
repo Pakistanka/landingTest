@@ -1,0 +1,13 @@
+@include raif-make-grid-columns(8);
+
+.raif-container {
+  width: 100%;
+  margin: 0 auto;
+
+  &__inner {
+    padding-left: rem(260px);
+    padding-right: rem(260px);
+    /*padding-left: rem(15px);
+    padding-right: rem(15px);*/
+  }
+}
