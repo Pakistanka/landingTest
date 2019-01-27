@@ -1,0 +1,42 @@
+.menu {
+
+  &__select {
+    list-style: none;
+    cursor:pointer;
+
+    &--item{
+      position:relative;
+
+      &::after {
+        content: "";
+        background-image: url('../../dist/img/arrow.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+
+    &--select {
+      display:none;
+      position: absolute;
+      top: rem(50px);
+      right: rem(0px);
+      list-style: none;
+      background-color: $brown;
+      padding: 5px;
+
+      &__item{
+        color: $white;
+        display: flex;
+        padding: 10px 5px;
+        border-bottom: 2px solid $gray-light;
+      }
+    }
+  }
+}
+
+.menu__select li:hover .menu__select--select{
+  display: block;
+}

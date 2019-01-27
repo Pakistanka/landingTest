@@ -3,5 +3,9 @@
   // border-top: rem(1px) solid $gray;
   padding-top: rem(40px);
   padding-bottom: rem(40px);
+  flex: 0 0 auto;
+  // height: rem(128px);
+  position: relative;
+  z-index: 70;
 
   }

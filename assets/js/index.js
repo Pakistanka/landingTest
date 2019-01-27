@@ -5,4 +5,4 @@ window.$ = $;
 
 import 'bootstrap';
 
-// import './app.js'
+// import './app.js';

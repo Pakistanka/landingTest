@@ -104,7 +104,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 window.$ = jquery__WEBPACK_IMPORTED_MODULE_1___default.a;
- // import './app.js'
+ // import './app.js';
 
 /***/ }),
 

@@ -1,17 +1,29 @@
 .main {
+  flex: 1 0 auto;
+  background-image: url('../../dist/img/kz_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  width: 100%;
+  height: 100%;
+  display: flex;
 
   &__block {
     display: flex;
-    width: 60%;
+    width: 65%;
     justify-content: space-between;
-    flex-basis: 60%;
+    flex-basis: 65%;
+    z-index: 100;
+    position: relative;
 
     &--image {
       background: url('../../dist/img/cat.png');
       background-repeat: no-repeat;
-      background-position: center;
-      height: rem(223px);
+      background-position: bottom;
+      // height: rem(223px);
       width: rem(213px);
+      display: flex;
+      align-items: flex-end;
     }
 
     &--wrapper {
@@ -21,10 +33,11 @@
       align-items: center;
       width: 75%;
       flex-basis: 75%;
+      padding-top: rem(20px);
     }
     &--title {
       color: $red;
-      font: normal bold rem(50px)/rem(54px) $futuraBook;
+      font: normal bold rem(45px)/rem(45px) $futuraBook;
       text-align: center;
       text-shadow: 0px 4px 0px $black;
     }
@@ -32,7 +45,7 @@
     &--text {
       background-color: $black50;
       padding: 10px;
-      margin-bottom: 20px;
+      // margin-bottom: 20px;
     }
     &--paragraph {
       color: $white;
@@ -41,7 +54,7 @@
         color: $yellow;
       }
       &-middle{
-        font: normal bold rem(30px)/normal  $futuraBook;
+        font: normal bold rem(26px)/normal  $futuraBook;
         text-align: center;
         text-transform: uppercase;
       }
@@ -51,10 +64,11 @@
       }
     }
     &--button {
+      display: flex;
+      align-items: center;
+      margin-left: calc(0% - 120px);
+      // height: 300px;
 
-      &-image {
-
-      }
       &-button {
         width: rem(225px);
         height: rem(55px);
@@ -63,6 +77,7 @@
         border-radius: rem(4px);
         color: $white;
         text-transform: uppercase;
+        z-index: 50;
 
         &:hover {
           background-color: $dark-red;
@@ -75,19 +90,64 @@
   }
 
   &__image {
+    width: 35%;
+    flex-basis: 35%;
+    // display: flex;
 
+    &--girl {
+      display:flex;
+      width: 340px;
+      z-index: 50;
+      left: calc(55% + 0px);
+      align-items: flex-end;
+      top: calc(10% + 60px);
+      position: absolute;
+    }
+    &--coins {
+      position:relative;
+      width: 70%;
+      height: 100%;
+    }
   }
 }
 
 .one {
-
+  background: url('../../dist/img/top.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  width: rem(144px);
+  height: rem(150px);
+  position: relative;
+  top: rem(30px);
 }
 .two {
-
+  background: url('../../dist/img/left.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  width: rem(144px);
+  height: rem(150px);
+  // margin-right: rem(-25px);
 }
 .three {
-
+  background: url('../../dist/img/right.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: rem(144px);
+  height: rem(150px);
+  // margin-left: rem(-25px);
 }
 .four {
-
+  background: url('../../dist/img/bottom.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  width: rem(144px);
+  height: rem(150px);
+  position: relative;
+  top: rem(-15px);
+}
+.vertical__wrapper{
+  display: flex;
+flex-direction: column;
+left: calc(45% + 20px);
+position: relative;
 }

@@ -23,19 +23,25 @@
         <div class="header__menu--text jackpot"></div>
           <!-- выпадающее меню -->
         <div class="header__menu--select menu">
-            <select class="menu__select">
-              <option value="" checked></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-            </select>
+            <ul class="menu__select js-select">
+              <li class="menu__select--item">
+                <img src="dist/img/flagKz.png"/>
+                <ul class="menu__select--select">
+                  <li class="menu__select--select__item"><img src="dist/img/flagRu.png"/>RU</li>
+                  <li class="menu__select--select__item"><img src="dist/img/flagGb.png"/>EN</li>
+                  <li class="menu__select--select__item"><img src="dist/img/flagUe.png"/>UA</li>
+                  <li class="menu__select--select__item"><img src="dist/img/flagTr.png"/>TR</li>
+                  <li class="menu__select--select__item"><img src="dist/img/flagDu.png"/>DE</li>
+                </ul>
+              </li>
+
+            </ul>
           </div>
 
       </div>
     </header>
 
-    <main class="main">
+    <div class="main">
       <div class="main__block">
         <div class="main__block--image"></div>
 
@@ -57,26 +63,79 @@
           </div>
 
           <div class="main__block--button">
-            <div class="main__block--button-image one"></div>
-            <div class="main__block--button-image two"></div>
+            <div class="vertical__wrapper">
+              <div class="one"></div>
+              <div class="four"></div>
+            </div>
+
+            <div class="two"></div>
             <button class="main__block--button-button">Тіркелу</button>
-            <div class="main__block--button-image three"></div>
-            <div class="main__block--button-image four"></div>
+            <div class="three"></div>
+
           </div>
 
         </div>
       </div>
 
-      <div class="main__image">
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="main__image" id="scene">
+        <img src="dist/img/coins.png" class="main__image--coins" data-depth="0.2"></img>
+        <img src="dist/img/kz_girl.png" class="main__image--girl" data-depth="0.2"></img>
       </div>
 
-    </main>
+    </div>
 
     <footer class="footer">
+      <div class="footer__group1">
+        <span class="icon-1"></span>
+        <span class="icon-2"></span>
+        <span class="icon-3"></span>
+        <span class="icon-4"></span>
+        <span class="icon-5"></span>
+        <div>
+          <span class="icon-6 path1"></span>
+          <span class="icon-6 path2"></span>
+          <span class="icon-6 path3"></span>
+          <span class="icon-6 path4"></span>
+          <span class="icon-6 path5"></span>
+        </div>
 
+        <span class="icon-7"></span>
+        <div>
+          <span class="icon-8 path1"></span>
+          <span class="icon-8 path2"></span>
+          <span class="icon-8 path3"></span>
+          <span class="icon-8 path4"></span>
+          <span class="icon-8 path5"></span>
+          <span class="icon-8 path6"></span>
+          <span class="icon-8 path7"></span>
+          <span class="icon-8 path8"></span>
+          <span class="icon-8 path9"></span>
+          <span class="icon-8 path10"></span>
+          <span class="icon-8 path11"></span>
+          <span class="icon-8 path12"></span>
+          <span class="icon-8 path13"></span>
+          <span class="icon-8 path14"></span>
+          <span class="icon-8 path15"></span>
+          <span class="icon-8 path16"></span>
+          <span class="icon-8 path17"></span>
+          <span class="icon-8 path18"></span>
+          <span class="icon-8 path19"></span>
+          <span class="icon-8 path20"></span>
+        </div>
+
+        <span class="icon-9"></span>
+        <span class="icon-10"></span>
+        <div>
+          <span class="icon-11 path1"></span>
+          <span class="icon-11 path2"></span>
+          <span class="icon-11 path3"></span>
+          <span class="icon-11 path4"></span>
+          <span class="icon-11 path5"></span>
+          <span class="icon-11 path6"></span>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
     </footer>
   </div>
 
